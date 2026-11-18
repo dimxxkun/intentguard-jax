@@ -1,0 +1,135 @@
+{
+  "rule": "NFKC + casefold + whitespace collapse; quarantine every duplicate occurrence",
+  "duplicate_groups": [
+    {
+      "id": "19d4a0529e23484180d04cb47c6b914912a84a0c6521798c06f68e6363dbc65b",
+      "occurrences": [
+        [
+          "val",
+          2369,
+          "greeting"
+        ],
+        [
+          "train",
+          11896,
+          "greeting"
+        ]
+      ],
+      "conflicting_labels": false
+    },
+    {
+      "id": "4cf803e229d7ee0084900f24d01bc6c4a75a0fafda04af0df724b3c0938f73c3",
+      "occurrences": [
+        [
+          "train",
+          14018,
+          "how_old_are_you"
+        ],
+        [
+          "test",
+          599,
+          "where_are_you_from"
+        ]
+      ],
+      "conflicting_labels": true
+    },
+    {
+      "id": "51b820b4aea1a0209bd8f6e71c7f7ac736eaca9667730aa8b0d85e2ec6e6a398",
+      "occurrences": [
+        [
+          "val",
+          1011,
+          "reminder"
+        ],
+        [
+          "train",
+          7424,
+          "todo_list"
+        ]
+      ],
+      "conflicting_labels": true
+    },
+    {
+      "id": "57f71def4036b19dbe3b0ca6d74e74abe50a5ac230d576100cbe07db22bcd2f3",
+      "occurrences": [
+        [
+          "val",
+          1794,
+          "change_volume"
+        ],
+        [
+          "train",
+          11130,
+          "whisper_mode"
+        ]
+      ],
+      "conflicting_labels": true
+    },
+    {
+      "id": "6659ff389f1898852f26e97b865059f54a61b892542b58c74bd7bdbc1d048cf6",
+      "occurrences": [
+        [
+          "train",
+          12066,
+          "what_is_your_name"
+        ],
+        [
+          "test",
+          938,
+          "user_name"
+        ]
+      ],
+      "conflicting_labels": true
+    }
+  ],
+  "original_counts": {
+    "oos_val": 100,
+    "val": 3000,
+    "train": 15000,
+    "oos_test": 1000,
+    "test": 4500,
+    "oos_train": 100
+  },
+  "cleaned_counts": {
+    "oos_val": 100,
+    "val": 2997,
+    "train": 14995,
+    "oos_test": 1000,
+    "test": 4498,
+    "oos_train": 100
+  },
+  "roles": {
+    "train": {
+      "total": 14995,
+      "in_scope": 14995,
+      "out_of_scope": 0
+    },
+    "selection": {
+      "total": 1200,
+      "in_scope": 1200,
+      "out_of_scope": 0
+    },
+    "temperature": {
+      "total": 600,
+      "in_scope": 600,
+      "out_of_scope": 0
+    },
+    "conformal": {
+      "total": 600,
+      "in_scope": 600,
+      "out_of_scope": 0
+    },
+    "policy": {
+      "total": 697,
+      "in_scope": 597,
+      "out_of_scope": 100
+    },
+    "test": {
+      "total": 5498,
+      "in_scope": 4498,
+      "out_of_scope": 1000
+    }
+  },
+  "unused_oos_training_rows": 100,
+  "limitations": "Exact canonical duplicates only; semantic and paraphrase overlap unverified"
+}

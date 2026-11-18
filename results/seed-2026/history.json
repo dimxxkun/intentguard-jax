@@ -1,0 +1,74 @@
+[
+  {
+    "epoch": 1,
+    "training_nll": 3.0058653354644775,
+    "selection_nll": 0.9075509347325295,
+    "selection_accuracy": 0.7891666666666667,
+    "max_preclip_gradient_norm": 11.178804397583008,
+    "seconds": 6.869738600002165,
+    "saved": true
+  },
+  {
+    "epoch": 2,
+    "training_nll": 0.4070947468280792,
+    "selection_nll": 0.5653003796499325,
+    "selection_accuracy": 0.855,
+    "max_preclip_gradient_norm": 6.699573040008545,
+    "seconds": 4.986162400000467,
+    "saved": true
+  },
+  {
+    "epoch": 3,
+    "training_nll": 0.1374369114637375,
+    "selection_nll": 0.5196867024580839,
+    "selection_accuracy": 0.8741666666666666,
+    "max_preclip_gradient_norm": 4.271076679229736,
+    "seconds": 4.845676900000399,
+    "saved": true
+  },
+  {
+    "epoch": 4,
+    "training_nll": 0.07489834725856781,
+    "selection_nll": 0.6042867564694312,
+    "selection_accuracy": 0.8708333333333333,
+    "max_preclip_gradient_norm": 4.370969772338867,
+    "seconds": 4.6388922999976785,
+    "saved": false
+  },
+  {
+    "epoch": 5,
+    "training_nll": 0.04435351863503456,
+    "selection_nll": 0.6144236855579392,
+    "selection_accuracy": 0.8683333333333333,
+    "max_preclip_gradient_norm": 4.644842147827148,
+    "seconds": 4.723233099997742,
+    "saved": false
+  },
+  {
+    "epoch": 6,
+    "training_nll": 0.025503551587462425,
+    "selection_nll": 0.6259987662503126,
+    "selection_accuracy": 0.875,
+    "max_preclip_gradient_norm": 4.055850028991699,
+    "seconds": 4.660293299999466,
+    "saved": false
+  },
+  {
+    "epoch": 7,
+    "training_nll": 0.016891730949282646,
+    "selection_nll": 0.6018807897628001,
+    "selection_accuracy": 0.885,
+    "max_preclip_gradient_norm": 3.509591817855835,
+    "seconds": 4.63675560000047,
+    "saved": false
+  },
+  {
+    "epoch": 8,
+    "training_nll": 0.009956007823348045,
+    "selection_nll": 0.6367561619634294,
+    "selection_accuracy": 0.8766666666666667,
+    "max_preclip_gradient_norm": 2.8081698417663574,
+    "seconds": 4.711225699997158,
+    "saved": false
+  }
+]

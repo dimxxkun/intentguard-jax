@@ -1,0 +1,6 @@
+{
+  "wall_seconds": 38.982386799998494,
+  "process_cpu_seconds": 158.734375,
+  "scope": "epoch loops, selection evaluation and checkpoint writes; includes first JIT compilation",
+  "selected_epoch": 2
+}

@@ -1,0 +1,13 @@
+{
+  "config": {
+    "vocab_size": 4096,
+    "classes": 150,
+    "max_length": 32,
+    "width": 96,
+    "heads": 4,
+    "layers": 2,
+    "ff_multiplier": 2,
+    "dropout": 0.1
+  },
+  "weights_sha256": "49a468c6b879c7dd06a45e5f5b55af8ccbfde4603e46c18df4e11744aac0286a"
+}

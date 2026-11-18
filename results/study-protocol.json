@@ -1,0 +1,24 @@
+{
+  "seeds": [
+    2026,
+    2027
+  ],
+  "primary_seed": 2026,
+  "epochs_budget": 20,
+  "early_stopping_patience": 5,
+  "checkpoint_selection": "selection-role NLL",
+  "tokenizer": "shared training-only WordPiece",
+  "test_policy": "both seeds retained; primary seed fixed before test evaluation",
+  "alpha": 0.1,
+  "policy_calibration_oos_false_accept_budget": 0.05,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

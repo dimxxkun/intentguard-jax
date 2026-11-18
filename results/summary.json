@@ -1,0 +1,57 @@
+{
+  "primary_seed": 2026,
+  "tokenizer_sha256": {
+    "2026": "94932dcc460bb4b863d7f1e304a2af7d6a2c8731651a4a412c330804ce7ea163",
+    "2027": "94932dcc460bb4b863d7f1e304a2af7d6a2c8731651a4a412c330804ce7ea163"
+  },
+  "classification_accuracy_mean": 0.8728323699421965,
+  "classification_accuracy_sample_std": 0.0009432282541394613,
+  "interpretation": "Two seeds on one cleaned split; not a confidence interval or a shift evaluation",
+  "models": [
+    {
+      "name": "seed-2026",
+      "accuracy": 0.8721654068474878,
+      "macro_f1": 0.8715197152582043,
+      "ece": 0.012444816526248015,
+      "conformal_coverage": 0.8910626945309026,
+      "in_scope_total": 4498,
+      "in_scope_accepted": 3251,
+      "in_scope_coverage": 0.7227656736327257,
+      "accepted_in_scope_accuracy": 0.9787757613042141,
+      "in_scope_correct_accepted": 3182,
+      "out_of_scope_accepted": 70,
+      "out_of_scope_false_accept_rate": 0.07,
+      "total_accepted": 3321
+    },
+    {
+      "name": "seed-2027",
+      "accuracy": 0.8734993330369053,
+      "macro_f1": 0.871325091656737,
+      "ece": 0.014210743455040368,
+      "conformal_coverage": 0.8759448643841707,
+      "in_scope_total": 4498,
+      "in_scope_accepted": 2865,
+      "in_scope_coverage": 0.6369497554468653,
+      "accepted_in_scope_accuracy": 0.9856893542757417,
+      "in_scope_correct_accepted": 2824,
+      "out_of_scope_accepted": 56,
+      "out_of_scope_false_accept_rate": 0.056,
+      "total_accepted": 2921
+    },
+    {
+      "name": "baseline",
+      "accuracy": 0.9079590929301912,
+      "macro_f1": 0.9071317189828274,
+      "ece": 0.01975367156673207,
+      "conformal_coverage": 0.8977323254779902,
+      "in_scope_total": 4498,
+      "in_scope_accepted": 3019,
+      "in_scope_coverage": 0.6711871943085816,
+      "accepted_in_scope_accuracy": 0.9900629347466048,
+      "in_scope_correct_accepted": 2989,
+      "out_of_scope_accepted": 38,
+      "out_of_scope_false_accept_rate": 0.038,
+      "total_accepted": 3057
+    }
+  ]
+}

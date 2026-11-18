@@ -1,0 +1,40 @@
+{
+  "seed": 2026,
+  "epochs_budget": 20,
+  "patience": 5,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "model": {
+    "vocab_size": 4096,
+    "classes": 150,
+    "max_length": 32,
+    "width": 96,
+    "heads": 4,
+    "layers": 2,
+    "ff_multiplier": 2,
+    "dropout": 0.1
+  },
+  "parameter_count": 560598,
+  "manifest_sha256": "7f66c67f786ae737a8c4c98e091a0f7b3bffd1bab298827ec8f61513a27bf8be",
+  "checkpoint_selection": "minimum in-scope selection-role NLL",
+  "tokenizer_fit": "training texts only; WordPiece from scratch",
+  "test_access_during_training": false,
+  "environment": {
+    "python": "3.12.16",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "logical_cpus": 16,
+    "packages": {
+      "jax": "0.12.1",
+      "jaxlib": "0.12.1",
+      "flax": "0.12.12",
+      "optax": "0.2.9",
+      "transformers": "5.23.0",
+      "tokenizers": "0.23.3",
+      "scikit-learn": "1.9.1",
+      "numpy": "2.5.5",
+      "scipy": "1.18.1",
+      "safetensors": "0.8.0",
+      "fastapi": "0.164.0"
+    }
+  }
+}

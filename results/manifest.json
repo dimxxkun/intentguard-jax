@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source_url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/data_full.json",
+  "source_sha256": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0",
+  "source_revision": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+  "split_seed": 2026,
+  "license": "CC-BY-3.0; original CLINC150 attribution applies",
+  "files": {
+    "train.json": "dcd597ba5a2b5ee87127547108e998dcce94a7a82974790bbfb9cbd20f77fca8",
+    "selection.json": "cc7a6c861e3bc4895082e1fcd1f88dd2c6064126301c4816d7f9bce48649a4b9",
+    "temperature.json": "a007200751496cf1aae9d7c94e21c1b990a5980bd2ab9c87a48789f417d42f77",
+    "conformal.json": "482b320b5accf3f2ca43da3abfee2b5ccf814a66b3253734026f2e7f3a2375eb",
+    "policy.json": "b73f63af507fd172db45c3ed6cda3ac49fd9ed4aa7de7a03220579816d605201",
+    "test.json": "37d9cdd06e11a4b54e10e968fec2a4ee2b056f3fe78e1c91c3512fc359ba7489",
+    "labels.json": "abbfb785ff866c4d074d19aa4b5242b0fe6b310fb3cdf44a731374144701e193",
+    "audit.json": "37e951645f0c99e8e27776f6f30bc20bfa04ebc7b514acc874c1fbd060a46f9f"
+  }
+}

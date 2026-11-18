@@ -1,0 +1,65 @@
+[
+  {
+    "epoch": 1,
+    "training_nll": 2.982347011566162,
+    "selection_nll": 0.9166397299015,
+    "selection_accuracy": 0.7858333333333334,
+    "max_preclip_gradient_norm": 10.46306037902832,
+    "seconds": 7.625671300000249,
+    "saved": true
+  },
+  {
+    "epoch": 2,
+    "training_nll": 0.4078289866447449,
+    "selection_nll": 0.567140819520723,
+    "selection_accuracy": 0.8616666666666667,
+    "max_preclip_gradient_norm": 6.7805585861206055,
+    "seconds": 5.256400999998732,
+    "saved": true
+  },
+  {
+    "epoch": 3,
+    "training_nll": 0.136606365442276,
+    "selection_nll": 0.5696267748351324,
+    "selection_accuracy": 0.8733333333333333,
+    "max_preclip_gradient_norm": 5.555391788482666,
+    "seconds": 5.157583699998213,
+    "saved": false
+  },
+  {
+    "epoch": 4,
+    "training_nll": 0.07202796638011932,
+    "selection_nll": 0.596420468539461,
+    "selection_accuracy": 0.8758333333333334,
+    "max_preclip_gradient_norm": 4.396938800811768,
+    "seconds": 5.472432899998239,
+    "saved": false
+  },
+  {
+    "epoch": 5,
+    "training_nll": 0.04412258043885231,
+    "selection_nll": 0.614251625863917,
+    "selection_accuracy": 0.8783333333333333,
+    "max_preclip_gradient_norm": 3.344116449356079,
+    "seconds": 5.219161599998188,
+    "saved": false
+  },
+  {
+    "epoch": 6,
+    "training_nll": 0.02957981638610363,
+    "selection_nll": 0.6354619539064666,
+    "selection_accuracy": 0.8783333333333333,
+    "max_preclip_gradient_norm": 3.8393125534057617,
+    "seconds": 5.0836175000004005,
+    "saved": false
+  },
+  {
+    "epoch": 7,
+    "training_nll": 0.017799977213144302,
+    "selection_nll": 0.6176883692212038,
+    "selection_accuracy": 0.8775,
+    "max_preclip_gradient_norm": 3.716710090637207,
+    "seconds": 5.15536019999854,
+    "saved": false
+  }
+]

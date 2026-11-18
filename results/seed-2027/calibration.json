@@ -1,0 +1,20 @@
+{
+  "temperature": 0.9915340534115956,
+  "conformal_quantile": 0.6794461210105105,
+  "alpha": 0.1,
+  "conformal_score": "1 - probability of true class (LAC)",
+  "conformal_samples": 600,
+  "temperature_samples": 600,
+  "policy": {
+    "reject_all": false,
+    "threshold": 0.9226315249897257,
+    "target_max_calibration_oos_accept": 0.05,
+    "calibration_oos_count": 100,
+    "calibration_oos_accepted": 5,
+    "calibration_in_scope_correct_accepted": 372,
+    "objective": "max correct ID accepted, then fewer ID errors, fewer OOS accepted, higher threshold",
+    "scope": "empirical calibration constraint, not a population false-accept guarantee"
+  },
+  "test_used_for_fitting": false,
+  "manifest_sha256": "7f66c67f786ae737a8c4c98e091a0f7b3bffd1bab298827ec8f61513a27bf8be"
+}
