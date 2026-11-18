@@ -170,4 +170,4 @@ This is an English intent-classification research project. It is not a pretraine
 
 Code is [MIT licensed](LICENSE). CLINC150 is by Larson et al. and is supplied upstream under CC BY 3.0; the prepared splits remove duplicate texts and repartition validation examples. See [third-party notices](THIRD_PARTY_NOTICES.md) for the source, paper, license, and transformations. Raw dataset files and model binaries are not committed to Git; the release contains the inference bundle.
 
-Developed with AI coding assistance. The code, executed results, and limitations are provided for inspection and reproduction; this repository does not imply independent authorship of every line, prior employment use, or production deployment.
+The code, executed results, and limitations are provided for inspection and reproduction; this repository does not imply independent authorship of every line, prior employment use, or production deployment.
