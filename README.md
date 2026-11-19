@@ -3,7 +3,7 @@
 **A small Transformer that routes supported requests and exposes when it should abstain.**
 
 [![Tests](https://github.com/dimxxkun/intentguard-jax/actions/workflows/ci.yml/badge.svg)](https://github.com/dimxxkun/intentguard-jax/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/code-MIT-147d92.svg)](LICENSE)
+[![License: Noncommercial](https://img.shields.io/badge/License-Noncommercial-blue.svg)](LICENSE)
 
 IntentGuard is a reproducible NLP experiment and local inference service built with **JAX, Flax NNX, Optax, Hugging Face Transformers, and FastAPI**. A 560,598-parameter encoder learns 150 conversational intents from scratch. Temperature scaling, split-conformal prediction sets, and a separately fitted acceptance policy turn its scores into an explicit route-or-abstain response.
 
@@ -168,6 +168,12 @@ Read the [experiment protocol](docs/protocol.md), [architecture](docs/architectu
 
 This is an English intent-classification research project. It is not a pretrained language model, a text generator, or a production-certified router. Further work requires new development data for threshold tuning, distribution-shift testing, broader seeds, and representative end-to-end load tests. Test-set observations here should motivate a separately evaluated follow-up experiment, not repeated tuning against this same test set.
 
-Code is [MIT licensed](LICENSE). CLINC150 is by Larson et al. and is supplied upstream under CC BY 3.0; the prepared splits remove duplicate texts and repartition validation examples. See [third-party notices](THIRD_PARTY_NOTICES.md) for the source, paper, license, and transformations. Raw dataset files and model binaries are not committed to Git; the release contains the inference bundle.
+Code uses the [noncommercial license](LICENSE); commercial use requires a separate written agreement and an agreed fee. CLINC150 is by Larson et al. and is supplied upstream under CC BY 3.0; the prepared splits remove duplicate texts and repartition validation examples. See [third-party notices](THIRD_PARTY_NOTICES.md) for the source, paper, license, and transformations. Raw dataset files and model binaries are not committed to Git; the release contains the inference bundle.
 
 The code, executed results, and limitations are provided for inspection and reproduction; this repository does not imply independent authorship of every line, prior employment use, or production deployment.
+
+## License and commercial use
+
+Original material in this repository is available under the [Noncommercial Use and Commercial Permission License](LICENSE). **Noncommercial use is free. Commercial use requires prior written permission and a separate written agreement specifying the scope and agreed fee.** Contact [work.abdulfatai@gmail.com](mailto:work.abdulfatai@gmail.com) with the repository name and intended use.
+
+Portfolio review and recruitment evaluation are permitted without a fee. Third-party components retain their own licenses. Permissions already granted for earlier versions remain valid; the new terms do not revoke those grants. These are custom source-available terms, not an OSI-approved open-source license.

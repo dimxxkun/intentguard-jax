@@ -11,7 +11,7 @@ The experiment uses **An Evaluation Dataset for Intent Classification and Out-of
 
 Changes made for this experiment: canonical duplicate texts were quarantined across all original splits; the remaining validation examples were deterministically partitioned into distinct development roles; labels were sorted; source identities and checksums were added. Tokenizer vocabulary and model parameters were learned from the cleaned training texts. These changes and derived artifacts are not endorsed by the dataset authors. The source dataset is not redistributed in Git or in the model archive.
 
-The MIT license covers this project's original code and model artifacts. It does not replace the original data license. Retain this attribution with the released bundle and derived experiment materials.
+The repository's [noncommercial license](LICENSE) covers this project's original code and model artifacts to the extent its copyright holders can grant those rights; commercial use requires a separate written agreement and an agreed fee. Earlier releases retain their original license grants. It does not replace the original data license. Retain this attribution with the released bundle and derived experiment materials.
 
 ## Software
 
